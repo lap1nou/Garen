@@ -9,6 +9,6 @@ class Config
     def initialize()
         @sleeping = LibC::DWORD.new(5)
         @transport = Transport.new()
-        @magicId = String.new(Bytes[0x41, 0x41, 0x41, 0x41])
+        @magicId = String.new(Bytes[0x42, 0x42, 0x42, 0x42])
     end
 end

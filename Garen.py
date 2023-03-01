@@ -121,7 +121,7 @@ class Garen(AgentType):
     Author = "@lapinousexy"
     Version = "0.1"
     Description = f"""Garen 3rd party agent for Havoc"""
-    MagicValue = 0x41414141 # 'garen'
+    MagicValue = 0x42424242 # 'garen'
 
     Arch = [
         "x64"
